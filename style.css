@@ -16,8 +16,22 @@
  margin-top: 30vh;
 }
 
+#profilePic {
+    max-width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+h3 {
+    margin-top: 0px;
+}
+
 a {
     height: 64px;
 }
 
 
+#about {
+    margin-top: 50px;
+}
