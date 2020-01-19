@@ -2,9 +2,22 @@
     width: 100px;
 }
 
+#navLogo{
+    height: 30px;
+    margin-top: 20px;
+}
+
+#navLinkedIn {
+    height: 30px;
+    margin-top: 20px;   
+}
+
 #logoContainer {
  margin-top: 30vh;
 }
 
+a {
+    height: 64px;
+}
 
 
