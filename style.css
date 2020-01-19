@@ -31,7 +31,12 @@ a {
     height: 64px;
 }
 
-
-#about {
+#about, #work {
     margin-top: 50px;
+}
+
+#workDev, #work3d, #workBuilt {
+    height: 150px;
+    background-color: cadetblue;
+    margin: 0px;
 }
