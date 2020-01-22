@@ -10,43 +10,58 @@
 
 <body class="grey lighten-3">
     <header>
-        <nav>
-            <div class="nav-wrapper amber darken-1">
-                <a href="./index.html" class="brand-logo center"><img id="navLogo"
-                        src="./assets/images/bj_logo_white.png" alt="logo"></a>
-                <ul id="nav-mobile" class="left">
-                    <li class="active"><a href="./work.html">Work</a></li class="active">
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li class="active">
-                </ul>
-                <ul id="nav-mobile" class="right">
-                    <li><a href="https://www.linkedin.com/in/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/LI-In-Bug_white.png" alt=""></a></li>
-                    <li><a href="https://github.com/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/GitHub-Mark-Light-32px.png" alt=""></a></li>
-                </ul>
+        <!-- Navbar -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
+                        <a class="navbar-brand" href="./index.html">
+                            <img id="navLogo" class="pt-2" src="./assets/images/bj_logo_white.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="d-flex col-12 col-md-8 justify-content-center justify-content-md-end">
+                        <ul class="nav pb-3 pt-3">
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./work.html">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
     </header>
+
     <main>
         <div id="work" class="container">
-            <div id="workDev" class="row">
-                <div class="col s12 m6 l4"><img src="./assets/images/skiSml.JPG" alt="Should I go skiing today?"></div>
-                <div class="col s12 m6 l4"><img src="./assets/images/weatherSml.JPG" alt="Weather App"></div>
-                <div class="col s12 m6 l4"><img src="./assets/images/passGenSml.JPG" alt="Password Generator">
+            <div id="work" class="d-flex flex-wrap justify-content-center">
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/skiSml.JPG"
+                        alt="Should I go skiing today?"></div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/weatherSml.JPG" alt="Weather App">
                 </div>
-            </div>
-            <div id="work3d" class="row">
-                <div class="col s12 m6 l4"><img src="./assets/images/phoneSml.jpg" alt="Phone Rendering">
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/passGenSml.JPG"
+                        alt="Password Generator">
                 </div>
-                <div class="col s12 m6 l4"><img src="./assets/images/intSml.jpg" alt="Interior Rendering"></div>
-                <div class="col s12 m6 l4"><img src="./assets/images/sunSml.png" alt="Sunglasses Rendering"></div>
-            </div>
-            <div id="workBuilt" class="row">
-                <div class="col s12 m6 l4"><img src="./assets/images/sneSml.JPG" alt="Sne iPad Stand">
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/phoneSml.jpg" alt="Phone Rendering">
                 </div>
-                <div class="col s12 m6 l4"><img src="./assets/images/strataSml.jpg" alt="Strata iPad Display"></div>
-                <div class="col s12 m6 l4"><img src="./assets/images/zahaSml.jpg" alt="Zaha iPad Stand"></div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/intSml.jpg"
+                        alt="Interior Rendering">
+                </div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/sunSml.png"
+                        alt="Sunglasses Rendering">
+                </div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/sneSml.JPG" alt="Sne iPad Stand">
+                </div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/strataSml.jpg"
+                        alt="Strata iPad Display">
+                </div>
+                <div class="m-1"><img class="border img-fluid" src="./assets/images/zahaSml.jpg" alt="Zaha iPad Stand">
+                </div>
             </div>
         </div>
     </main>
