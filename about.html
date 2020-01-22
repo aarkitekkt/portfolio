@@ -6,37 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body class="grey lighten-3">
+<body>
     <header>
-        <nav>
-            <div class="nav-wrapper cyan lighten-1">
-                <a href="./index.html" class="brand-logo center"><img id="navLogo"
-                        src="./assets/images/bj_logo_white.png" alt="logo"></a>
-                <ul id="nav-mobile" class="left">
-                    <li><a href="./work.html">work</a></li>
-                    <li class="active"><a href="./about.html">about</a></li>
-                    <li><a href="./contact.html">contact</a></li>
-                </ul>
-                <ul id="nav-mobile" class="right">
-                    <li><a href="https://www.linkedin.com/in/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/LI-In-Bug_white.png" alt=""></a></li>
-                    <li><a href="https://github.com/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/GitHub-Mark-Light-32px.png" alt=""></a></li>
-                </ul>
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
+                        <a class="navbar-brand" href="./index.html">
+                            <img id="navLogo" class="pt-2" src="./assets/images/bj_logo_white.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="d-flex col-12 col-md-8 justify-content-center justify-content-md-end">
+                        <ul class="nav pb-3 pt-3">
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./work.html">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
     </header>
+
     <main>
         <div id="about" class="container">
             <div class="row">
-                <div id="pic" class="col s12 l4 center-align">
-                    <img id="profilePic" src="./assets/images/profilePic_sml.png" alt="">
+                <div id="pic" class="col-12 col-md-4">
+                    <img id="profilePic" class="mb-5" src="./assets/images/profilePic_sml.png" alt="Profile Pic">
                 </div>
-                <div class="col s12 l8">
+                <div class="col-12 col-md-8">
                     <h3>about me</h3>
 
                     <p>I am a Designer, 3D Artist, and aspiring Developer living in Salt Lake City. After earning a

@@ -1,15 +1,19 @@
+/* Index Page */
 #logo {
     width: 100px;
 }
 
+.index-button {
+    vertical-align: middle;
+}
+
 #navLogo{
-    height: 30px;
-    margin-top: 20px;
+    height: 40px;    
 }
 
 #navLinkedIn {
     height: 30px;
-    margin-top: 20px;   
+       
 }
 
 #logoContainer {
@@ -18,9 +22,6 @@
 
 #profilePic {
     max-width: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
 }
 
 h3 {
@@ -31,12 +32,20 @@ a {
     height: 64px;
 }
 
+/* work page */
 #about, #work {
     margin-top: 50px;
 }
 
+#work {
+    max-width: 900px;
+}
+
+img {
+    margin: 0px;
+}
+
 #workDev, #work3d, #workBuilt {
-    height: 150px;
-    background-color: cadetblue;
+       
     margin: 0px;
 }
