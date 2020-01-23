@@ -51,7 +51,7 @@ h3 {
 }
 
 .thumbnail {
-    width: 200px;
+    width: 150px;
     opacity: .3;
 }
 
@@ -59,7 +59,12 @@ h3 {
     opacity: 1;
 }
 
+#projectImage {
+    object-fit: contain;
+}
+
 .Icon {
+    width: 40px;
     position: absolute;  
     z-index: 1;
 } 
