@@ -1,10 +1,10 @@
-#Updated Portfolio
+Updated Portfolio
 
 Repository: https://github.com/aarkitekkt/updatedPortfolio
 
 URL: https://aarkitekkt.github.io/updatedPortfolio
 
-##Overview
+Overview
 ​The purpose of this application is to display examples of my design work and provide contact information to potential employers and collaborators.​
 
 ##Gallery
