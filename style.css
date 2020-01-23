@@ -15,6 +15,10 @@
     width: 100px;
 }
 
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
 #navLogo{
     height: 40px;    
 }
