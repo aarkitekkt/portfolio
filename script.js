@@ -74,8 +74,7 @@ var projects = [
     }
 ]
 
-
-
+// When image is clicked, append project information to div.
 $("img").click(function () {
     var imgID = $(this).attr("id");
     for (let i = 0; i < projects.length; i++) {
