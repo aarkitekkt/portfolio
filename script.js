@@ -23,6 +23,54 @@ var projects = [
         ImageUrl: "./assets/images/passwordCapture.JPG",
         GitHubIcon: "./assets/images/GitHub-Mark-Light-32px.png",
         UrlIcon: "./assets/images/linkIcon.png"
+    }, {
+        ID: "phone",
+        Project: "Mobile Phone Rendering",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/phone_2.jpg",
+        GitHubIcon: "",
+        UrlIcon: ""
+    }, {
+        ID: "intRender",
+        Project: "Interior Architectural Rendering",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/Atrium-comp-d3.jpg",
+        GitHubIcon: "",
+        UrlIcon: ""
+    }, {
+        ID: "sunglasses",
+        Project: "Sunglasses Animation",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/sunglass_2.png",
+        GitHubIcon: "",
+        UrlIcon: ""
+    }, {
+        ID: "sne",
+        Project: "sne iPad Stand",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/sne_1.JPG",
+        GitHubIcon: "",
+        UrlIcon: ""
+    }, {
+        ID: "strata",
+        Project: "Strata iPad Enclosure",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/strata_1.jpg",
+        GitHubIcon: "",
+        UrlIcon: ""
+    }, {
+        ID: "zaha",
+        Project: "Zaha iPad Stand",
+        URL: "",
+        Github: "",
+        ImageUrl: "./assets/images/zaha_2.jpg",
+        GitHubIcon: "",
+        UrlIcon: ""
     }
 ]
 

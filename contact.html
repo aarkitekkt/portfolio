@@ -8,30 +8,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="grey lighten-3">
+<body class="pageBody">
     <header>
-        <nav>
-            <div class="nav-wrapper deep-orange accent-2">
-                <a href="./index.html" class="brand-logo center"><img id="navLogo"
-                        src="./assets/images/bj_logo_white.png" alt="logo"></a>
-                <ul id="nav-mobile" class="left">
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./work.html">Work</a></li>
-                    <li class="active"><a href="./contact.html">Contact</a></li class="active">
-                </ul>
-                <ul id="nav-mobile" class="right">
-                    <li><a href="https://www.linkedin.com/in/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/LI-In-Bug_white.png" alt=""></a></li>
-                    <li><a href="https://github.com/aarkitekkt"><img id="navLinkedIn"
-                                src="./assets/images/GitHub-Mark-Light-32px.png" alt=""></a></li>
-                </ul>
+        <!-- Navbar -->
+        <div class="container-fluid bg-transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
+                        <a class="navbar-brand" href="./index.html">
+                            <img id="navLogo" class="pt-2" src="./assets/images/bj_logo_white.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="d-flex col-12 col-md-8 justify-content-center justify-content-md-end">
+                        <ul class="nav pb-3 pt-3">
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./work.html">work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-white px-3 align-middle" href="./contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
     </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <h3>contact</h3>
+            </div>
+            <ul>
+                <li>email: </li>
+                GitHubIcon: "./assets/images/GitHub-Mark-Light-32px.png",
+                <li><img src="./assets/images/GitHub-Mark-Light-32px.png" alt=""><a
+                        href="https://github.com/aarkitekkt">github.com/aarkitekkt</a></li>
+                <li>phone</li>
+                <li>resume</li>
+            </ul>
+        </div>
+
+    </main>
     <!-- Jquery and javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 
-</body>
+</body class="pageBody">
 
 </html>

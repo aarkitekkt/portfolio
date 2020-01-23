@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: darkgrey;">
+<body class="pageBody">
     <header>
         <!-- Navbar -->
-        <div class="container-fluid bg-dark">
+        <div class="container-fluid bg-transparent">
             <div class="container">
                 <div class="row">
                     <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
@@ -27,9 +27,6 @@
                             <li class="nav-item">
                                 <a class="text-white px-3 align-middle" href="./about.html">about</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="text-white px-3 align-middle" href="./contact.html">contact</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -38,15 +35,15 @@
     </header>
 
     <main>
-        <div id="work" class="container">
+        <div id="work" class="container mt-5">
 
             <!-- Dynamically created project information when image thumbnail is clicked -->
             <div id="project" class="justify-content-center">
                 <div class="d-flex flex-row justify-content-center mb-3">
-                    <h3 id="projectTitle" class="text-white"></h3>
+                    <h3 id="projectTitle" class="text-white">Work</h3>
                 </div>
                 <div class="d-flex flex-row justify-content-center mb-3">
-                    <img id="projectImage" src="" class="img-fluid border" alt="">
+                    <img id="projectImage" src="" class="img-fluid" alt="">
                 </div>
                 <div class="d-flex flex-row justify-content-center mb-3">
                     <a id="gitLink" href=""><img id="gitHubIcon" class="px-2" src="" alt=""></a>
@@ -55,29 +52,51 @@
             </div>
 
             <!-- Project image thumbnails -->
-            <div id="projectTiles" class="d-flex flex-wrap justify-content-center">
-                <div class="m-1"><img id="ski" class="border img-fluid" src="./assets/images/skiSml.JPG"
-                        alt="Should I go skiing today?"></div>
-                <div class="m-1"><img id="weather" class="border img-fluid" src="./assets/images/weatherSml.JPG"
+            <div id="projectTiles" class="d-flex flex-wrap justify-content-center mt-5">
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/devIcon.png" alt="devIcon">
+                    <img id="ski" class="thumbnail rounded-lg img-fluid" src="./assets/images/skiSml.JPG"
+                        alt="Should I go skiing today?">
+                </div>
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/devIcon.png" alt="devIcon">
+                    <img id="weather" class="thumbnail rounded-lg img-fluid" src="./assets/images/weatherSml.JPG"
                         alt="Weather App">
                 </div>
-                <div class="m-1"><img id="password" class="border img-fluid" src="./assets/images/passGenSml.JPG"
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/devIcon.png" alt="devIcon">
+                    <img id="password" class="thumbnail rounded-lg img-fluid" src="./assets/images/passGenSml.JPG"
                         alt="Password Generator">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/phoneSml.jpg" alt="Phone Rendering">
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/3dIcon.png" alt="3dIcon">
+                    <img id="phone" class="thumbnail rounded-lg img-fluid" src="./assets/images/phoneSml.jpg"
+                        alt="Phone Rendering">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/intSml.jpg"
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/3dIcon.png" alt="3dIcon">
+                    <img id="intRender" class="thumbnail rounded-lg img-fluid" src="./assets/images/intSml.jpg"
                         alt="Interior Rendering">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/sunSml.png"
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/3dIcon.png" alt="3dIcon">
+                    <img id="sunglasses" class="thumbnail rounded-lg img-fluid" src="./assets/images/sunSml.png"
                         alt="Sunglasses Rendering">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/sneSml.JPG" alt="Sne iPad Stand">
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/builtIcon.png" alt="BuiltIcon">
+                    <img id="sne" class="thumbnail rounded-lg img-fluid" src="./assets/images/sneSml.JPG"
+                        alt="Sne iPad Stand">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/strataSml.jpg"
-                        alt="Strata iPad Display">
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/builtIcon.png" alt="BuiltIcon">
+                    <img id="strata" class="thumbnail rounded-lg img-fluid" src="./assets/images/strataSml.jpg"
+                        alt="Strata iPad Enclosure">
                 </div>
-                <div class="m-1"><img class="border img-fluid" src="./assets/images/zahaSml.jpg" alt="Zaha iPad Stand">
+                <div class="imgOverlay rounded-lg m-1">
+                    <img class="Icon" src="./assets/images/builtIcon.png" alt="BuiltIcon">
+                    <img id="zaha" class="thumbnail rounded-lg img-fluid" src="./assets/images/zahaSml.jpg"
+                        alt="Zaha iPad Stand">
                 </div>
             </div>
         </div>
