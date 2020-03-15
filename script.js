@@ -1,5 +1,23 @@
 var projects = [
     {
+        ID: "burger",
+        Project: "Burger Tracker",
+        URL: "https://aarkitekkt-eat-da-burger.herokuapp.com/",
+        Github: "https://github.com/aarkitekkt/eat-da-burger",
+        ImageUrl: "./assets/images/Devour-Burger.gif",
+        GitHubIcon: "./assets/images/GitHub-Mark-Light-32px.png",
+        UrlIcon: "./assets/images/linkIcon.png"
+    },
+    {
+        ID: "laptops",
+        Project: "Laptop Marketplace",
+        URL: "https://aqueous-beach-33300.herokuapp.com/",
+        Github: "https://github.com/aarkitekkt/brb-laptops",
+        ImageUrl: "./assets/images/laptopsCapture.gif",
+        GitHubIcon: "./assets/images/GitHub-Mark-Light-32px.png",
+        UrlIcon: "./assets/images/linkIcon.png"
+    },
+    {
         ID: "ski",
         Project: "Should I go skiing today?",
         URL: "https://aarkitekkt.github.io/Ski_Resort_Weather_Report/",
