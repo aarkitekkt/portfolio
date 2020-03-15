@@ -1,6 +1,6 @@
 # Updated Portfolio
 
-Repository: https://github.com/aarkitekkt/updatedPortfolio
+Repository: https://github.com/aarkitekkt/portfolio
 
 URL: https://aarkitekkt.github.io/portfolio
 
