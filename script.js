@@ -4,7 +4,7 @@ var projects = [
         Project: "Burger Tracker",
         URL: "https://aarkitekkt-eat-da-burger.herokuapp.com/",
         Github: "https://github.com/aarkitekkt/eat-da-burger",
-        ImageUrl: "./assets/images/Devour-Burger.gif",
+        ImageUrl: "./assets/images/Devour-Burger2.gif",
         GitHubIcon: "./assets/images/GitHub-Mark-Light-32px.png",
         UrlIcon: "./assets/images/linkIcon.png"
     },

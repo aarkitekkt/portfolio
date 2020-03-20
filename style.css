@@ -46,18 +46,42 @@ h3 {
     margin-left: 0px;
 }
 
-.imgOverlay {
-    background-color: black;
+.text {
+    color: white;
+    font-size: 20px;
+    line-height: 125%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
+.imgOverlay {
+    position: relative;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.thumbnail:hover .imgOverlay {
+    opacity: .95;
+  }
 
 .thumbnail {
     width: 150px;
+    height: 150px;
     opacity: 1;
 }
 
-.thumbnail:hover {    
-    opacity: .3;    
-}
 
 #projectTiles {
     max-width: 700px;    
@@ -68,5 +92,3 @@ h3 {
     position: absolute;  
     z-index: 1;
 } 
-
-
