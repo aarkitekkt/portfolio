@@ -93,10 +93,11 @@ var projects = [
 ]
 
 // When image is clicked, append project information to div.
-$("img").click(function () {
-    var imgID = $(this).attr("id");
+$(".thumbnail").click(function () {
+    var thumbID = $(this).attr("id");
+    console.log("you clicked on " + thumbID);
     for (let i = 0; i < projects.length; i++) {
-        if (imgID === projects[i].ID) {
+        if (thumbID === projects[i].ID) {
             console.log(projects[i].Project)
             $("#projectTitle").text(projects[i].Project);
             $("#projectImage").attr("src", projects[i].ImageUrl);
